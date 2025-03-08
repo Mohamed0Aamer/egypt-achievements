@@ -1,0 +1,71 @@
+/* CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ce1126 33%, white 33%, white 66%, #000 66%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-end; /* المحتوى على اليمين */
+    align-items: center;
+}
+
+.container {
+    width: 60%; /* عرض المحتوى */
+    background-color: rgba(255, 255, 255, 0.9); /* خلفية بيضاء شفافة */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 5%; /* تباعد من الحافة اليمنى */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #0078d7;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: #0078d7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.achievement {
+    margin-bottom: 20px;
+    text-align: right; /* النص على اليمين */
+}
+
+.achievement img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.achievement h3 {
+    color: #0078d7;
+    margin: 10px 0;
+}
+
+.achievement p {
+    font-size: 14px;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #0078d7;
+}
